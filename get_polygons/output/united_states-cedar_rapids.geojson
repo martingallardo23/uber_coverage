@@ -1,0 +1,4 @@
+{ "type": "FeatureCollection", "features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-92.76809,42.29668],[-91.965073,42.297282],[-91.831089,42.299063],[-91.705197,42.29628],[-91.363263,42.296445],[-91.366079,41.860068],[-92.067104,41.863019],[-92.765999,41.862373],[-92.76809,42.29668]]]}, "properties":{ "name": "united_states_cedar_rapids", "country": "United States", "city": "Cedar Rapids" }}
+]
+}

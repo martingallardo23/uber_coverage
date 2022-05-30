@@ -1,0 +1,4 @@
+{ "type": "FeatureCollection", "features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-94.6176052,36.4990114],[-93.9226127,36.4969415],[-93.9296722,36.3178915],[-93.9646912,36.0346634],[-94.1184998,35.6550646],[-94.230423,35.1900835],[-94.4377899,35.1799821],[-94.4295502,35.3901695],[-94.6176052,36.4990114]]]}, "properties":{ "name": "united_states_fayetteville_ar", "country": "United States", "city": "Fayetteville, AR" }}
+]
+}

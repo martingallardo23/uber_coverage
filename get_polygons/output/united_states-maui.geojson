@@ -1,0 +1,4 @@
+{ "type": "FeatureCollection", "features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-156.8023682,20.7663868],[-156.6430664,21.0947505],[-155.7174683,20.8562452],[-156.2667847,20.4321605],[-156.8023682,20.7663868]]]}, "properties":{ "name": "united_states_maui", "country": "United States", "city": "Maui" }}
+]
+}

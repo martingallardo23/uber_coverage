@@ -1,0 +1,4 @@
+{ "type": "FeatureCollection", "features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-81.3953018,43.0069067],[-81.2693024,43.0445545],[-81.1130905,43.0530848],[-81.1264801,42.9297823],[-81.2229538,42.9146978],[-81.34552,42.9204806],[-81.3922119,42.9765207],[-81.3953018,43.0069067]]]}, "properties":{ "name": "canada_london_ont", "country": "Canada", "city": "London, Ont" }}
+]
+}

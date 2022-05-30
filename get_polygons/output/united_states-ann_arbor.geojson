@@ -1,0 +1,4 @@
+{ "type": "FeatureCollection", "features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-84.4848736,42.3739834],[-83.5509513,42.3850626],[-83.5442448,42.262002],[-83.5450172,42.2449124],[-83.542099,42.1695107],[-84.4798745,42.1563697],[-84.4848736,42.3739834]]]}, "properties":{ "name": "united_states_ann_arbor", "country": "United States", "city": "Ann Arbor" }}
+]
+}

@@ -1,0 +1,4 @@
+{ "type": "FeatureCollection", "features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-82.8733063,27.8493976],[-82.8705597,28.1882436],[-82.1969604,28.1906645],[-82.2003842,27.656484],[-82.7641296,27.6592036],[-82.8733063,27.8493976]]]}, "properties":{ "name": "united_states_tampa_bay", "country": "United States", "city": "Tampa Bay" }}
+]
+}

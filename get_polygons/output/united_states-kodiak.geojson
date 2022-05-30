@@ -1,0 +1,4 @@
+{ "type": "FeatureCollection", "features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[32.9965257,43.2963274],[32.9977763,43.4138191],[33.0056702,43.5110633],[33.3879814,43.5155668],[33.4003393,43.3000515],[32.9965257,43.2963274]]]}, "properties":{ "name": "united_states_kodiak", "country": "United States", "city": "Kodiak" }}
+]
+}

@@ -1,0 +1,4 @@
+{ "type": "FeatureCollection", "features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-84.8501587,42.8095068],[-84.6839905,42.9162064],[-84.4285583,42.9182179],[-84.2582703,42.8105143],[-84.2555237,42.6501218],[-84.4038391,42.5449867],[-84.6798706,42.5439749],[-84.8474121,42.6551719],[-84.8501587,42.8095068]]]}, "properties":{ "name": "united_states_lansing", "country": "United States", "city": "Lansing" }}
+]
+}

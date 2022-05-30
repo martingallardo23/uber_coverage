@@ -1,0 +1,4 @@
+{ "type": "FeatureCollection", "features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-96.9708252,40.5764125],[-96.9708252,41.0420738],[-96.2896729,41.0410381],[-96.2924194,40.5743264],[-96.9708252,40.5764125]]]}, "properties":{ "name": "united_states_lincoln", "country": "United States", "city": "Lincoln" }}
+]
+}

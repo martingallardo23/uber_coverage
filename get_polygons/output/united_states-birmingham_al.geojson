@@ -1,0 +1,4 @@
+{ "type": "FeatureCollection", "features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-87.2619628,33.735634],[-86.8280029,33.8337932],[-86.2594604,33.6716558],[-86.2869262,33.1857077],[-87.2125243,33.1834091],[-87.2619628,33.735634]]]}, "properties":{ "name": "united_states_birmingham_al", "country": "United States", "city": "Birmingham, AL" }}
+]
+}

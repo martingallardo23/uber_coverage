@@ -1,0 +1,4 @@
+{ "type": "FeatureCollection", "features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[51.4064026,25.381564],[51.4211655,25.4131985],[51.532402,25.4386242],[51.5794373,25.414749],[51.6388321,25.2459381],[51.6398621,25.149014],[51.4235687,25.1508787],[51.4064026,25.381564]]]}, "properties":{ "name": "qatar_doha", "country": "Qatar", "city": "Doha" }}
+]
+}
