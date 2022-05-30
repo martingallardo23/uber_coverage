@@ -1,0 +1,39 @@
+---
+title: "Uber coverage"
+author: "Martin Gallardo"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r echo=FALSE, message=FALSE, out.width='100%'}
+library(leaflet)
+library(sf)
+library(tidyverse)
+library(leaflet.extras)
+
+in_uber_cov <- '../merge_polygons/output'
+uber_cov <- read_sf(file.path(in_uber_cov, 'uber_polygons.shp'))
+uber_cov <- st_transform(uber_cov, '+proj=longlat +datum=WGS84')
+
+leaflet() %>%
+  addTiles() %>%
+  addPolygons(
+    data = uber_cov,
+    weight = 1,
+    col = '#C16E70',
+    group = 'Uber Coverage',
+    popup = ~ paste('<b>', country, '</b><br/>', city),
+    opacity = 0.5,
+    highlightOptions = highlightOptions(color = "black",
+                                        weight = 2)
+  ) %>%
+  addFullscreenControl()
+
+```
+
+# 
+
+[Red]{style="color: #C16E70;"} polygons represent Uber coverage areas as they appear in [Uber's website](https://www.uber.com/global/en/cities/). This aims to be a comprehensive depiction of Uber coverage worldwide, with the exception a few cases which appear in Uber's page but don't explicitly show a map with coverage.
