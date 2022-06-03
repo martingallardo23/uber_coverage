@@ -5,6 +5,7 @@ from urllib.request import Request
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import re
+import zipfile
 
 save_path = '../output/'
 
@@ -46,12 +47,12 @@ for jj in range(len(countries)):
     country_name_short = re.sub("[^0-9a-zA-Z]+", "_", country_name_short).lower()
 
     # Set cities page
-
     city_class = soup.find('div', text='Buenos Aires')['class'] 
     city_class = ' '.join([item for item in city_class]) 
     cities = country.find_all('div', class_ = city_class) 
     
     for ii in range(len(cities)):
+
         # Set city page and name
         city = cities[ii]
         city_name = city.get_text()
@@ -119,8 +120,28 @@ for jj in range(len(countries)):
             dn_download.append(country_name + ', ' + city_name)
             print(country_name + ', ' + city_name + " couldn't be downloaded")
 
+# Save list of cities that couldn't be downloaded
 file_name = 'dn_download.txt'
 file = os.path.join(save_path, file_name)
 file1 = open(file, 'w')
 file1.write('\n'.join(dn_download))
 file1.close()
+
+# Put all geojsons in one zip file
+
+file_name = 'geojson_files.zip'
+file = os.path.join(save_path, file_name)
+zipf = zipfile.ZipFile(file, 'w')
+
+for root, dirs, files in os.walk(save_path):
+    for file in files:
+        if file.endswith('.geojson'):
+            zipf.write(os.path.join(root, file), file)
+
+zipf.close()
+
+# Delete all geojson files in the save path
+for root, dirs, files in os.walk(save_path):
+    for file in files:
+        if file.endswith('.geojson'):
+            os.remove(os.path.join(root, file))
