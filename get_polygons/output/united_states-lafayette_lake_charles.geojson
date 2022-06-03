@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-92.1615654,30.0838838],[-92.1533203,30.3061081],[-91.8347168,30.3416702],[-91.8319702,30.0924646],[-92.1615654,30.0838838]]]}, "properties":{ "name": "united_states_lafayette_lake_charles", "country": "United States", "city": "Lafayette-Lake Charles" }}
-]
-}

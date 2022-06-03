@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-84.1616822,35.7731957],[-84.1603089,36.1400312],[-83.7084961,36.1433583],[-83.68927,35.7798806],[-84.1616822,35.7731957]]]}, "properties":{ "name": "united_states_knoxville", "country": "United States", "city": "Knoxville" }}
-]
-}

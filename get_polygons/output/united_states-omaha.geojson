@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-96.63749,41.0489591],[-96.6333701,41.4907298],[-95.7009055,41.4907298],[-95.6995322,41.0593149],[-96.63749,41.0489591]]]}, "properties":{ "name": "united_states_omaha", "country": "United States", "city": "Omaha" }}
-]
-}

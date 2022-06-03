@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-76.0726929,36.5444131],[-75.766449,36.5466196],[-75.3750611,35.7225608],[-75.6881714,35.718101],[-75.8186341,35.925216],[-75.8927918,36.121807],[-76.0163879,36.3411404],[-76.0726929,36.5444131]]]}, "properties":{ "name": "united_states_outer_banks_nc", "country": "United States", "city": "Outer Banks, NC" }}
-]
-}

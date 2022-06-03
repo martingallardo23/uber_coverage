@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-83.129425,34.676135],[-83.0030823,34.9140886],[-82.4674988,35.1513544],[-82.1557617,35.1872777],[-81.7932129,35.053889],[-81.8769836,34.5042932],[-82.6583862,34.3989781],[-82.8616333,34.5167411],[-83.129425,34.676135]]]}, "properties":{ "name": "united_states_greenville_sc", "country": "United States", "city": "Greenville, SC" }}
-]
-}

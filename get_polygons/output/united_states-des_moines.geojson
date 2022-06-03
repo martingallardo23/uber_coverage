@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-93.9488983,41.8767189],[-93.3302307,41.8777415],[-93.3288574,41.3922641],[-93.9482117,41.3912338],[-93.9488983,41.8767189]]]}, "properties":{ "name": "united_states_des_moines", "country": "United States", "city": "Des Moines" }}
-]
-}

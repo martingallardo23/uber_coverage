@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[113.7963867,22.1856459],[113.9048767,22.4384697],[113.9735413,22.5019211],[114.0490723,22.5031898],[114.165802,22.5501247],[114.2427063,22.5437831],[114.434967,22.4740061],[114.3292236,22.136044],[113.7963867,22.1856459]]]}, "properties":{ "name": "hong_kong_hong_kong", "country": "Hong Kong", "city": "Hong Kong" }}
-]
-}

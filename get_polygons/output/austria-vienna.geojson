@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[15.978241,48.2136926],[16.1512756,48.356249],[16.3050842,48.4328454],[16.5440369,48.4164416],[16.7390442,48.2594271],[16.6236877,47.9752141],[16.1952209,47.9660198],[15.978241,48.2136926]]]}, "properties":{ "name": "austria_vienna", "country": "Austria", "city": "Vienna" }}
-]
-}

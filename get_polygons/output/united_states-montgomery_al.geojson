@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-86.4109039,32.2830692],[-86.4033508,32.4506794],[-86.1177063,32.4877552],[-86.0895538,32.2807472],[-86.4109039,32.2830692]]]}, "properties":{ "name": "united_states_montgomery_al", "country": "United States", "city": "Montgomery, AL" }}
-]
-}

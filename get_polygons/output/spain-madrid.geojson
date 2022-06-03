@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-3.8939667,40.4260421],[-3.8898468,40.5137992],[-3.4902191,40.5263265],[-3.4888458,40.3088544],[-3.7168121,40.2721915],[-3.8788605,40.3329364],[-3.8925934,40.3915348],[-3.8939667,40.4260421]]]}, "properties":{ "name": "spain_madrid", "country": "Spain", "city": "Madrid" }}
-]
-}

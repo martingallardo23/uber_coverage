@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-100.1520538,32.0837381],[-100.1465607,32.5236578],[-99.62883,32.521342],[-99.6315765,32.0831563],[-100.1520538,32.0837381]]]}, "properties":{ "name": "united_states_abilene", "country": "United States", "city": "Abilene" }}
-]
-}

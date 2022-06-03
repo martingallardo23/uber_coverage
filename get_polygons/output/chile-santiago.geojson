@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-71.6687775,-33.9194636],[-71.6564179,-33.1341332],[-70.2508545,-33.126658],[-70.2316285,-33.9097765],[-71.6687775,-33.9194636]]]}, "properties":{ "name": "chile_santiago", "country": "Chile", "city": "Santiago" }}
-]
-}

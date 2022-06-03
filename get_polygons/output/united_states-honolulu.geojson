@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-158.2972578,21.5886558],[-157.9566817,21.7469114],[-157.5611739,21.2869823],[-157.7891402,21.2229886],[-157.967668,21.2997777],[-158.11873,21.2741858],[-158.2972578,21.5886558]]]}, "properties":{ "name": "united_states_honolulu", "country": "United States", "city": "Honolulu" }}
-]
-}

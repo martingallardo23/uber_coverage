@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[91.5319061,26.0866965],[91.5322495,26.1320149],[91.698761,26.2389213],[91.8618393,26.1847102],[91.8618393,26.090705],[91.5319061,26.0866965]]]}, "properties":{ "name": "india_guwahati", "country": "India", "city": "Guwahati" }}
-]
-}

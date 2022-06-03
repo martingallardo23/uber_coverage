@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-80.6674194,36.3426613],[-79.3103027,36.3516331],[-79.3112945,36.0961503],[-79.542694,35.7040232],[-80.2801513,35.6995624],[-80.6529998,35.8288245],[-80.6674194,36.3426613]]]}, "properties":{ "name": "united_states_piedmont_triad", "country": "United States", "city": "Piedmont Triad" }}
-]
-}

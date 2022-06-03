@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-84.8489548,43.6948109],[-83.7087822,43.6966684],[-83.7014008,43.2231912],[-83.9023547,43.2218145],[-83.9046478,43.3129383],[-84.1401436,43.3121894],[-84.1399966,43.5107094],[-84.8486137,43.5095925],[-84.8489548,43.6948109]]]}, "properties":{ "name": "united_states_tri_cities_mi", "country": "United States", "city": "Tri-Cities, MI" }}
-]
-}

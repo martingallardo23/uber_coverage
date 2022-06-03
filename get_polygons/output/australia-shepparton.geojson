@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[145.0331704,-36.4974384],[145.0340928,-36.3446998],[145.1519585,-36.3439967],[145.151699,-36.202541],[145.6298465,-36.2012382],[145.630386,-36.5521924],[145.1599072,-36.555771],[145.1593816,-36.4976485],[145.0331704,-36.4974384]]]}, "properties":{ "name": "australia_shepparton", "country": "Australia", "city": "Shepparton" }}
-]
-}

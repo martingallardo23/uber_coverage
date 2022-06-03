@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-124.118042,43.4289879],[-123.9422607,43.4210088],[-122.2668457,43.4608938],[-122.2558594,42.0288941],[-124.1015625,42.0166518],[-124.118042,43.4289879]]]}, "properties":{ "name": "united_states_southern_oregon", "country": "United States", "city": "Southern Oregon" }}
-]
-}

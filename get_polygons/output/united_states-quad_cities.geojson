@@ -1,4 +1,0 @@
-{ "type": "FeatureCollection", "features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "Polygon", "coordinates":[[[-90.7333374,41.6298145],[-90.3220367,41.6298145],[-90.3227234,41.4149255],[-90.7319641,41.4159553],[-90.7333374,41.6298145]]]}, "properties":{ "name": "united_states_quad_cities", "country": "United States", "city": "Quad Cities" }}
-]
-}
