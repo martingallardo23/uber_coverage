@@ -5,8 +5,6 @@ import os
 import sys
 from qgis.core import (
      QgsApplication, 
-     QgsProcessingFeedback, 
-     QgsVectorLayer
 )
 import zipfile
 
