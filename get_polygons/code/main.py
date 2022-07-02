@@ -1,5 +1,5 @@
 # Get packages
-from custom_funcs import *
+from custom_funcs import start_scraper, get_countries, get_cities, clean_country_names, clean_city_names, get_lat_lons, write_geojson, save_dn_download, compile_zip, delete_geojsons
 
 def main():
     save_path = '../output/'
