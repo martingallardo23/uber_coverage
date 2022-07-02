@@ -1,21 +1,30 @@
+"""
+Main script
+"""
+
 # Get packages
-from custom_funcs import start_scraper, get_countries, get_cities, clean_country_names, clean_city_names, get_lat_lons, write_geojson, save_dn_download, compile_zip, delete_geojsons
+from custom_funcs import (start_scraper, get_countries,
+    get_cities, clean_country_names,
+    clean_city_names, get_lat_lons, write_geojson,
+    save_dn_download, compile_zip, delete_geojsons)
 
 def main():
-    save_path = '../output/'
+    """ Main function """
 
-    url  = "https://www.uber.com/global/en/cities"
-    soup = start_scraper(url)
+    save_path = '../output/'
+    url       = "https://www.uber.com/global/en/cities"
+
+    soup      = start_scraper(url)
     countries = get_countries(soup)
-    
+
     dn_download = []
 
-    for jj, country in enumerate(countries):
+    for country in countries:
         countries = get_countries(soup)
         cities    = get_cities(soup, country)
         country_name, country_name_short = clean_country_names(country)
 
-        for ii, city in enumerate(cities):
+        for city in cities:
             city_name, city_name_short, city_link = clean_city_names(city)
             try:
                 text = str(start_scraper(city_link))
@@ -29,7 +38,8 @@ def main():
                     continue
 
                 # Write out geojson
-                write_geojson(geojson, country_name_short, city_name_short, save_path)
+                write_geojson(geojson, country_name_short, 
+                                city_name_short, save_path)
                 print(f'{country_name}, {city_name} downloaded')
             except: 
                 dn_download.append(f'{country_name}, {city_name}')

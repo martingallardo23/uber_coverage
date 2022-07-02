@@ -1,10 +1,14 @@
+"""
+Includes custom functions for the main module.
+"""
+
 # Get packages
 import os
 from urllib.request import Request
 from urllib.request import urlopen
-from bs4 import BeautifulSoup
 import re
 import zipfile
+from bs4 import BeautifulSoup
 
 # Initialize scraper
 def start_scraper (url):
@@ -67,9 +71,9 @@ def get_lat_lons(html, country_name_short, city_name_short,
     text = [x.split('],[') for x in text]
 
     # Swap lats and lons
-    for j, v in enumerate(text):
-        for i, c in enumerate(v):
-            lat_long   = c.replace('[', '').replace(']', '')
+    for j, val in enumerate(text):
+        for i, coord in enumerate(val):
+            lat_long   = coord.replace('[', '').replace(']', '')
             lat_long   = lat_long.split(',')
             lat_long[0], lat_long[1] = lat_long[1], lat_long[0]
             text[j][i] = '[' + ','.join(lat_long) + ']'
