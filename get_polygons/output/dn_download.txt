@@ -1,5 +1,6 @@
 Belgium, Antwerp
 Canada, Belleville
+Colombia, Cali - Colombia
 Egypt, Alexandria
 Germany, Berlin
 Germany, Cologne

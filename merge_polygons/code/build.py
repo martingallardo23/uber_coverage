@@ -22,26 +22,30 @@ Processing.initialize()
 
 # Unzip zip_dir to files_dir
 
-files_dir = "../../get_polygons/output"
-zip_dir = os.path.join(files_dir, "geojson_files.zip")
+def main():
 
-with zipfile.ZipFile(zip_dir, 'r') as zip_ref:
-    zip_ref.extractall(files_dir)
+    files_dir = "../../get_polygons/output"
+    out_dir   = '../output/uber_polygons.shp'
+    zip_dir   = os.path.join(files_dir, "geojson_files.zip")
 
-# Get list of geojson files
+    with zipfile.ZipFile(zip_dir, 'r') as zip_ref:
+        zip_ref.extractall(files_dir)
 
-files = glob.glob(os.path.join(files_dir, '*.geojson'))
+    # Get list of geojson files
 
-out_dir = '../output/uber_polygons.shp'
+    files = glob.glob(os.path.join(files_dir, '*.geojson'))
 
-# Merge geojson files into one shapefile
+    # Merge geojson files into one shapefile
 
-parameters = {'CRS': None, 
-            'LAYERS': files, 
-            'OUTPUT': out_dir}
+    parameters = {'CRS': None, 
+                'LAYERS': files, 
+                'OUTPUT': out_dir}
 
-processing.run('qgis:mergevectorlayers', parameters) 
+    processing.run('qgis:mergevectorlayers', parameters) 
 
-#Delete all geojson files 
-for file in files:
-    os.remove(file)
+    #Delete all geojson files 
+    for file in files:
+        os.remove(file)
+
+if __name__ == '__main__':
+    main()
